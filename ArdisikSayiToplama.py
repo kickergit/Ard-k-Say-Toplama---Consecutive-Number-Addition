@@ -6,6 +6,5 @@ bitis = int(input("Bitiş (Tam sayı giriniz!):")) +1
 artis = int(input("Artış Miktari (Tam sayı giriniz!)" ))
 for a in range(baslangic, bitis, artis):
                 toplam+=a
-                print(a)
-                print("+")
+                print(a ,end=" +")
 print("=",toplam)
